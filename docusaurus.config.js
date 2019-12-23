@@ -10,7 +10,7 @@ module.exports = {
   tagline: 'Symfony 4, Software Development, Software Architect, Software Testing',
   url: 'https://tienvx.github.io',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'favicon.ico',
   organizationName: 'tienvx', // Usually your GitHub org/user name.
   projectName: 'tienvx.github.io', // Usually your repo name.
   themeConfig: {
@@ -22,7 +22,7 @@ module.exports = {
       },
       links: [
         {to: 'projects', label: 'Projects', position: 'left'},
-        {to: 'cv/redirect', label: 'CV', position: 'left', target: '_blank'},
+        {to: 'cv/redirect', label: 'CV', position: 'left', target: '_blank', rel: 'nofollow'},
       ],
     },
     footer: {
