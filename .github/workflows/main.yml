@@ -33,5 +33,5 @@ jobs:
         git config --global user.email $GIT_USER@users.noreply.github.com
         yarn deploy
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        GIT_USER: ${{ secrets.GIT_USER }}
+        ACCESS_TOKEN: ${{ secrets.BLOG_ACCESS_TOKEN }}
+        GIT_USER: ${{ secrets.BLOG_GIT_USER }}
