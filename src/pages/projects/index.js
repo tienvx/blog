@@ -18,7 +18,7 @@ const users = [
   {
     title: 'MBT Bundle',
     description: 'An open source model-based testing tool',
-    preview: 'img/mbt-bundle.png',
+    preview: 'img/projects/mbt-bundle.png',
     website: 'https://mbtbundle.org',
     source: 'https://github.com/tienvx/mbt-bundle',
     fbOpenSource: false,
