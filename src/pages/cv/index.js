@@ -17,7 +17,7 @@ const CVData = {
     contacts: [
       { type: 'email', value: 'tien . xuan . vo at gmail.com' },
       { type: 'phone', value: '+84 (xxx) xxx xx xx' },
-      { type: 'website', value: 'tienvx.tk' },
+      { type: 'website', value: 'tienvx.github.io' },
       { type: 'linkedin', value: 'linkedin.com/in/tienxuanvo' },
       { type: 'twitter', value: 'twitter.com/tienvoxuan' },
       { type: 'github', value: 'github.com/tienvx' }
