@@ -29,6 +29,9 @@ module.exports = {
       style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} Tien Vo, Inc. Built with Docusaurus.`,
     },
+    googleAnalytics: {
+      trackingID: 'UA-40149047-5',
+    },
   },
   presets: [
     [

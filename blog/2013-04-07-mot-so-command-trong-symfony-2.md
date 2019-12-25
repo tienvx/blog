@@ -3,24 +3,66 @@ title: "Một số command trong Symfony 2"
 date: "2013-04-07"
 ---
 
-1\. cache logs rm -rf app/cache/\* rm -rf app/logs/\* sudo chmod 777 -R app/cache app/logs
+1. cache logs
 
-2\. config visual http://website.com/web/app\_dev.php/\_configurator/step/0
+```
+rm -rf app/cache/\*
+rm -rf app/logs/\*
+sudo chmod 777 -R app/cache app/logs
+```
 
-3 parameters.yml: parameters: database\_driver: pdo\_mysql database\_host: 127.0.0.1 database\_port: null database\_name: db\_name database\_user: root database\_password: null mailer\_transport: smtp mailer\_host: 127.0.0.1 mailer\_user: null mailer\_password: null locale: en secret: b998a210c4981883d4447fa4a6bea331d database\_path: nul
+2. config visual http://website.com/web/app_dev.php/_configurator/step/0
 
-4\. bundle php app/console generate:bundle --namespace=NameSpace/Bundle --dir=yml --format=yml
+3. parameters.yml:
 
-5\. doctrine doctrine:schema:drop --force doctrine:schema:create
+```
+parameters:
+  database_driver: pdo_mysql
+  database_host: 127.0.0.1
+  database_port: null
+  database_name: db_name
+  database_user: root
+  database_password: null
+  mailer_transport: smtp
+  mailer_host: 127.0.0.1
+  mailer_user: null
+  mailer_password: null
+  locale: en
+  secret: b998a210c4981883d4447fa4a6bea331d
+  database_path: null
+```
 
-6\. entities: doctrine:generate:entity --entity="NameSpaceBundle:Entity" --fields="title:string body:text tags:text created:datetime updated:datetime" doctrine:generate:entities NameSpace
+4. bundle php
 
-7\. fixtures and migrations php app/console doctrine:migrations:diff php app/console doctrine:migrations:migrate php app/console doctrine:fixtures:load
+```
+app/console generate:bundle --namespace=NameSpace/Bundle --dir=yml --format=yml
+```
 
-8\. assests
+5. doctrine
+```
+doctrine:schema:drop --force doctrine:schema:create
+```
 
+6. entities:
+```
+doctrine:generate:entity --entity="NameSpaceBundle:Entity" --fields="title:string body:text tags:text created:datetime updated:datetime"
+doctrine:generate:entities NameSpace
+```
+
+7. fixtures and migrations
+
+```
+php app/console doctrine:migrations:diff
+php app/console doctrine:migrations:migrate
+php app/console doctrine:fixtures:load
+```
+
+8. assests
+
+```
 php app/console assets:install web --symlink
+```
 
-9\. đánh dấu
+9. đánh dấu
 
 http://symfony2admingenerator.org/installation.html
