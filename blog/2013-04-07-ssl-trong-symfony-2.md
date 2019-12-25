@@ -5,13 +5,20 @@ date: "2013-04-07"
 
 1. Start server trong xampp
 
+```
 start xampp sudo /opt/lampp/lampp startssl
 
 stop xampp sudo /opt/lampp/lampp stopssl
+```
 
 2. Trong Route symfony 2
 
-.... prefix:   /admin requirements: \_scheme:  https
+```
+....
+prefix:   /admin
+requirements: _
+scheme:  https
+```
 
 3. Trong Virtual host
 
@@ -20,8 +27,8 @@ stop xampp sudo /opt/lampp/lampp stopssl
   ServerAdmin admin@website.com
   DocumentRoot "/home/me/website/web"
   ServerName website.com
-  ErrorLog "/home/me/website/error\_log"
-  CustomLog "/home/me/website/access\_log" common
+  ErrorLog "/home/me/website/error_log"
+  CustomLog "/home/me/website/access_log" common
   <Directory "/home/me/website/web">
     Require all granted
   </Directory>

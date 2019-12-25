@@ -13,5 +13,5 @@ date: "2014-07-16"
 8. sudo make install
 9. sudo vim /etc/php5/apache2/php.ini  
     sudo vim /etc/php5/cli/php.ini  
-    \[zmq\]  
+    \[zmq\]
     extension=zmq.so
