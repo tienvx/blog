@@ -94,7 +94,7 @@ const CVData = {
           sectionHeader: 'Personal',
           description: 'Personal projects that I am founder',
           items: [
-            { title: 'MBT Bundle', projectUrl: 'https://mbtbundle.org', description: 'An open-source software testing tool. It help tester testing software by automatically generating test cases.' },
+            { title: 'SICOPE Model', projectUrl: 'https://sicope-model.github.io', description: 'An open-source software testing tool for web application. It help tester testing web application by automatically generating test cases.' },
           ]
         }
       ]
