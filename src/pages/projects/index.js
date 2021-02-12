@@ -16,11 +16,11 @@ import styles from './styles.module.css';
 const users = [
   // Please add in alphabetical order of title.
   {
-    title: 'MBT Bundle',
-    description: 'An open source model-based testing tool',
-    preview: 'img/projects/mbt-bundle.png',
-    website: 'https://mbtbundle.org',
-    source: 'https://github.com/tienvx/mbt-bundle',
+    title: 'SICOPE Model',
+    description: 'An open source model-based testing tool for web application',
+    preview: 'img/projects/sicope-model.png',
+    website: 'https://sicope-model.github.io',
+    source: 'https://github.com/sicope-model/sicope-model',
     fbOpenSource: false,
     pinned: false,
   },
