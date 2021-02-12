@@ -1,16 +1,11 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 module.exports = {
   title: "Tien Vo's Blog",
   tagline: 'Symfony 4, Software Development, Software Architect, Software Testing',
   url: 'https://tienvx.github.io',
   baseUrl: '/',
-  favicon: 'favicon.ico',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
   organizationName: 'tienvx', // Usually your GitHub org/user name.
   projectName: 'tienvx.github.io', // Usually your repo name.
   themeConfig: {
@@ -20,7 +15,7 @@ module.exports = {
         alt: 'Blog Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {to: 'projects', label: 'Projects', position: 'left'},
         {to: 'cv/redirect', label: 'CV', position: 'left', target: '_blank', rel: 'nofollow'},
       ],
@@ -29,20 +24,18 @@ module.exports = {
       style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} Tien Vo, Inc. Built with Docusaurus.`,
     },
-    googleAnalytics: {
-      trackingID: 'UA-40149047-5',
-    },
   },
   presets: [
     [
       '@docusaurus/preset-classic',
       {
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
+        docs: false,
         blog: {
           path: './blog',
           routeBasePath: '/',
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
