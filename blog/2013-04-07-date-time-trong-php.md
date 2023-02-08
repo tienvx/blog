@@ -1,5 +1,6 @@
 ---
 title: "Date time trong PHP"
+authors: tienvx
 date: "2013-04-07"
 ---
 

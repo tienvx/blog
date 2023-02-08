@@ -1,5 +1,6 @@
 ---
 title: "Fallback mode của reCaptcha trong Drupal"
+authors: tienvx
 date: "2013-04-16"
 ---
 

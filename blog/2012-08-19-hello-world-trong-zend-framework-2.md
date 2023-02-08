@@ -1,5 +1,6 @@
 ---
 title: "Hello World trong Zend Framework 2"
+authors: tienvx
 date: "2012-08-19"
 ---
 

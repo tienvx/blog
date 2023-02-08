@@ -1,5 +1,6 @@
 ---
 title: "Default value trong twig"
+authors: tienvx
 date: "2013-04-07"
 ---
 

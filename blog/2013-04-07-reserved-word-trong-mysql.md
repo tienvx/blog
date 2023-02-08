@@ -1,5 +1,6 @@
 ---
 title: "Reserved word trong mysql"
+authors: tienvx
 date: "2013-04-07"
 ---
 

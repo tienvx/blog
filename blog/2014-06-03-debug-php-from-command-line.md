@@ -1,5 +1,6 @@
 ---
 title: "Debug php from command line"
+authors: tienvx
 date: "2014-06-03"
 ---
 

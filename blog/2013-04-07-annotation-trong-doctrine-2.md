@@ -1,5 +1,6 @@
 ---
 title: "Annotation trong Doctrine 2"
+authors: tienvx
 date: "2013-04-07"
 ---
 

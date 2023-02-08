@@ -1,5 +1,6 @@
 ---
 title: "Install thelia"
+authors: tienvx
 date: "2014-03-29"
 ---
 

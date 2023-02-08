@@ -1,5 +1,6 @@
 ---
 title: "Field Data Definition Types"
+authors: tienvx
 date: "2014-01-19"
 ---
 

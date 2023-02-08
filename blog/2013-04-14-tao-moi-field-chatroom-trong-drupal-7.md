@@ -1,5 +1,6 @@
 ---
 title: "Tạo mới field chatroom trong drupal 7"
+authors: tienvx
 date: "2013-04-14"
 ---
 

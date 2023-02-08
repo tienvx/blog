@@ -1,5 +1,6 @@
 ---
 title: "Fix can not mount /dev/loop0"
+authors: tienvx
 date: "2015-04-29"
 ---
 

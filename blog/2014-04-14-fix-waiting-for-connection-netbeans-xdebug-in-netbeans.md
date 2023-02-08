@@ -1,5 +1,6 @@
 ---
 title: "Fix Waiting For Connection (netbeans-xdebug) in Netbeans"
+authors: tienvx
 date: "2014-04-14"
 ---
 

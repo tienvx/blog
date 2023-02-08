@@ -1,5 +1,6 @@
 ---
 title: "Episode 1: Make drupal server run"
+authors: tienvx
 date: "2013-05-03"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Cài bundle cho Symfony 2 một cách thủ công"
+authors: tienvx
 date: "2013-04-07"
 ---
 

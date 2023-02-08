@@ -1,5 +1,6 @@
 ---
 title: "Install Sublime Text 3 on Ubuntu"
+authors: tienvx
 date: "2013-09-21"
 ---
 

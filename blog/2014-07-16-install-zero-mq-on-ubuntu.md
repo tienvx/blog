@@ -1,5 +1,6 @@
 ---
 title: "Install Zero MQ on Ubuntu"
+authors: tienvx
 date: "2014-07-16"
 ---
 

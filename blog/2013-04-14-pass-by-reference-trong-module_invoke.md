@@ -1,5 +1,6 @@
 ---
 title: "Pass by reference trong module_invoke"
+authors: tienvx
 date: "2013-04-14"
 ---
 

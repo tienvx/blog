@@ -1,5 +1,6 @@
 ---
 title: "Upgrade xdebug on Ubuntu 14.04"
+authors: tienvx
 date: "2014-04-03"
 ---
 

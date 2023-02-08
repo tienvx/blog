@@ -1,5 +1,6 @@
 ---
 title: "Remote debugging PHP with a firewall in the way"
+authors: tienvx
 date: "2015-07-11"
 ---
 
