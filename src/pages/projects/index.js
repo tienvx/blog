@@ -26,7 +26,7 @@ const users = [
   },
   {
     title: 'Pact PHP',
-    description: 'PHP version of Pact (An consumer driven contract testing tool)',
+    description: 'PHP version of Pact (A consumer driven contract testing tool)',
     preview: 'img/projects/pactflow.png',
     website: 'https://pactflow.io/',
     source: 'https://github.com/pact-foundation/pact-php',
