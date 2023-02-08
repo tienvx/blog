@@ -1,5 +1,6 @@
 ---
 title: "How to install phing/phing in ubuntu 14.04"
+authors: tienvx
 date: "2014-08-21"
 ---
 

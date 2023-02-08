@@ -1,5 +1,6 @@
 ---
 title: "Episode 2: Cài Aegir server"
+authors: tienvx
 date: "2013-05-14"
 ---
 

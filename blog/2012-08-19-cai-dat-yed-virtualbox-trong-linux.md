@@ -1,5 +1,6 @@
 ---
 title: "Cài đặt yEd, Virtualbox trong linux"
+authors: tienvx
 date: "2012-08-19"
 ---
 

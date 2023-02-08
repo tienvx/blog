@@ -1,5 +1,6 @@
 ---
 title: "Fix netbeans do not index drupal's files"
+authors: tienvx
 date: "2015-07-11"
 ---
 

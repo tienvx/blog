@@ -1,5 +1,6 @@
 ---
 title: "Một số command trong Symfony 2"
+authors: tienvx
 date: "2013-04-07"
 ---
 

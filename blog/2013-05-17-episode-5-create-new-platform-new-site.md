@@ -1,5 +1,6 @@
 ---
 title: "Episode 5: Create new Platform, new Site"
+authors: tienvx
 date: "2013-05-17"
 ---
 

@@ -27,7 +27,7 @@ const CVData = {
     {
       type: 'text',
       title: 'Career Profile',
-      content: 'Hi, my name\'s Tien and I\'m a senior PHP developer with over 6 years experience. I was a full stack developer at GO1, working on an e-learning platform. I love learning new things by working on new projects.',
+      content: "I'm Symfony 5 certified developer with 3 years experience. I has been working with PHP language for over 10 years. I love learning new things by working on open-source projects.",
       icon: 'usertie'
     },
     {
@@ -36,9 +36,9 @@ const CVData = {
       icon: 'graduation',
       items: [
         {
-          title: 'Information Technology (BS)',
-          authority: 'University of Science, Ho Chi Minh City',
-          authorityWebSite: 'https://web.hcmus.edu.vn/en/',
+          title: 'Information Technology (Bachelor of Science)',
+          authority: 'Ho Chi Minh City University of Science',
+          authorityWebSite: 'https://www.hcmus.edu.vn/',
           rightSide: 'Sep 2008 - Dec 2012'
         }
       ]
@@ -51,12 +51,21 @@ const CVData = {
       items: [
         {
           title: 'Senior PHP Developer',
+          company: 'Sunbytes',
+          description: 'I worked with micro-services using API Platform (an API-first framework based on Symfony)',
+          companyWebSite: 'https://sunbytes.io/',
+          companyMeta: 'Software outsource company',
+          datesBetween: '2020.01 - 2023.01',
+          descriptionTags: ['Symfony', 'API Platform', 'Kafka', 'PHPUnit', 'Codeception']
+        },
+        {
+          title: 'Senior PHP Developer',
           company: 'GO1',
-          description: 'I was a Drupal developer. Then I work with Silex based micro-services, and AngularJS',
+          description: 'I was a Drupal developer. Then I worked with Silex based micro-services, and AngularJS',
           companyWebSite: 'https://www.go1.com/',
           companyMeta: 'E-learning portal',
           datesBetween: '2013.04 - 2019.07',
-          descriptionTags: ['Drupal', 'Silex', 'Symfony', 'AngularJS', 'RabbitMQ', 'ReactJS', 'ElasticSearch', 'PHPUnit', 'Protractor', 'Testcafe', 'Codeception']
+          descriptionTags: ['Drupal', 'Silex', 'Symfony Components', 'AngularJS', 'RabbitMQ', 'ReactJS', 'ElasticSearch', 'PHPUnit', 'Protractor', 'Testcafe', 'Codeception']
         },
         {
           title: 'Software Tester Intern',
@@ -72,19 +81,24 @@ const CVData = {
           description: 'I wrote PHP scripts to scrap online information.',
           companyWebSite: 'https://www.vietmaisolutions.com/',
           companyMeta: 'Software development and technology solutions consulting.',
-          datesBetween: '2011.09 - 2012.12'
+          datesBetween: '2011.09 - 2012.12',
+          descriptionTags: ['PHP']
         }
       ]
     },
     {
       type: 'projects-list',
       title: 'Projects',
-      description: 'I am the key member of these projects',
       icon: 'tasks',
       groups: [
         {
+          sectionHeader: 'Sunbytes',
+          items: [
+            { title: 'Kwadraad', projectUrl: '', description: 'A tool for social worker. We update it to version 4 using API Platform.' },
+          ]
+        },
+        {
           sectionHeader: 'GO1',
-          description: 'Internal projects that I contribute most',
           items: [
             { title: 'Report Builder', projectUrl: '', description: 'A reporting system. GO1 use it to present data to clients. I\'m the maintainer of the project. I work on backend and frontend sides.' },
             { title: 'Monolith', projectUrl: '', description: 'A tool to help developer grab all micro-services and frontend to help debug and test our code.' },
@@ -92,49 +106,23 @@ const CVData = {
         },
         {
           sectionHeader: 'Personal',
-          description: 'Personal projects that I am founder',
           items: [
+            { title: 'Pact PHP', projectUrl: 'https://github.com/pact-foundation/pact-php', description: 'PHP version of Pact (A consumer driven contract testing tool).' },
             { title: 'SICOPE Model', projectUrl: 'https://sicope-model.github.io', description: 'An open-source software testing tool for web application. It help tester testing web application by automatically generating test cases.' },
           ]
         }
       ]
     },
-    /*{
-      type: 'common-list',
-      title: 'Conferences & Certificates',
-      description: '',
-      icon: 'comments',
-      items: [
-        {
-          title: 'Some Conferences / 2019',
-          authority: 'SomeConf',
-          authorityWebSite: 'https://www.someconf.somesome'
-        },
-        {
-          title: 'Some Conferences / 2019',
-          authority: 'SomeConf',
-          authorityMeta: 'Speaker',
-          authorityWebSite: 'https://www.someconf.somesome',
-          rightSide: 'test'
-        },
-        {
-          title: 'Some Conferences / 2012',
-          authorityMeta: 'Speaker'
-        }
-      ]
-    },*/
     {
       type: 'common-list',
-      title: 'Languages',
-      icon: 'language',
+      title: 'Certificates',
+      description: '',
+      icon: 'file-certificate',
       items: [
         {
-          authority: 'Vietnamese',
-          authorityMeta: 'Native'
-        },
-        {
-          authority: 'English',
-          authorityMeta: 'Intermediate'
+          title: 'Symfony 5 Certification',
+          authority: 'Symfony',
+          authorityWebSite: 'https://connect.symfony.com/profile/tienvx'
         }
       ]
     },
@@ -142,13 +130,13 @@ const CVData = {
       type: 'tag-list',
       title: 'Skills Proficiency',
       icon: 'rocket',
-      items: ['Symfony 4', 'PHP', 'Composer', 'XDebug', 'Docker', 'Docker Compose', 'Git', 'Github', 'Gitlab', 'Mysql', 'Elasticsearch', 'Kubernetes', 'ReactJS', 'AngularJS']
+      items: ['Symfony 5', 'API Platform', 'PHPUnit', 'Codeception', 'PHP', 'Composer', 'XDebug', 'Docker', 'Docker Compose', 'Git', 'Github', 'Gitlab', 'Mysql', 'Elasticsearch', 'Kafka', 'AngularJS']
     },
     {
       type: 'tag-list',
       title: 'Hobies & Interests',
       icon: 'cubes',
-      items: ['Gaming', 'Soccer', 'Open Source', 'Physics']
+      items: ['Gaming', 'Open Source']
     }
   ],
   branding: false

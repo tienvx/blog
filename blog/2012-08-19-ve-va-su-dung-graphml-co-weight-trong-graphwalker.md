@@ -1,5 +1,6 @@
 ---
 title: "Graphml có weight trong graphwalker"
+authors: tienvx
 date: "2012-08-19"
 ---
 

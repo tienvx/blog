@@ -1,5 +1,6 @@
 ---
 title: "Read more path in views (Drupal)"
+authors: tienvx
 date: "2013-04-17"
 ---
 

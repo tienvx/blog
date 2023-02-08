@@ -1,5 +1,6 @@
 ---
 title: "Exclude directory from grep search"
+authors: tienvx
 date: "2014-05-07"
 ---
 

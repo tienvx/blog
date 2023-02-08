@@ -1,5 +1,6 @@
 ---
 title: "Selenium 2.25 và Netbeans 7.2"
+authors: tienvx
 date: "2012-08-19"
 ---
 

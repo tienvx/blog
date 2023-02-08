@@ -1,5 +1,6 @@
 ---
 title: "Install bumblebee on Ubuntu 16.10"
+authors: tienvx
 date: "2016-10-31"
 ---
 

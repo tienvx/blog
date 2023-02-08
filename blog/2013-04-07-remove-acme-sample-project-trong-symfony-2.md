@@ -1,5 +1,6 @@
 ---
 title: "Remove ACME sample project trong Symfony 2"
+authors: tienvx
 date: "2013-04-07"
 ---
 

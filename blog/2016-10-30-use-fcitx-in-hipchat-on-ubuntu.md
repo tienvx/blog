@@ -1,5 +1,6 @@
 ---
 title: "Use fcitx in hipchat on ubuntu"
+authors: tienvx
 date: "2016-10-30"
 ---
 

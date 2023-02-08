@@ -24,12 +24,57 @@ const users = [
     fbOpenSource: false,
     pinned: false,
   },
+  {
+    title: 'Pact PHP',
+    description: 'PHP version of Pact (A consumer driven contract testing tool)',
+    preview: 'img/projects/pactflow.png',
+    website: 'https://pactflow.io/',
+    source: 'https://github.com/pact-foundation/pact-php',
+    fbOpenSource: false,
+    pinned: false,
+  },
+  {
+    title: 'Composer Downloads Plugin',
+    description: "Allow download extra files for Composer's package",
+    preview: 'https://via.placeholder.com/1519x1077.png?text=Composer+Download+Plugin',
+    website: false,
+    source: 'https://github.com/tienvx/composer-downloads-plugin',
+    fbOpenSource: false,
+    pinned: false,
+  },
+  {
+    title: 'UX Collection JS',
+    description: "Symfony bundle providing Symfony UX integration for collection form type",
+    preview: 'https://via.placeholder.com/1519x1077.png?text=UX+Collection+JS',
+    website: false,
+    source: 'https://github.com/tienvx/ux-collection-js',
+    fbOpenSource: false,
+    pinned: false,
+  },
+  {
+    title: 'Assignments Evaluator',
+    description: "Support assignments for Symfony Expression Language",
+    preview: 'https://via.placeholder.com/1519x1077.png?text=Assignments+Evaluator',
+    website: false,
+    source: 'https://github.com/tienvx/assignments-evaluator',
+    fbOpenSource: false,
+    pinned: false,
+  },
+  {
+    title: 'Angular Elasticsearch Query Builder',
+    description: "An Angular.js directive for building an Elasticsearch query.",
+    preview: 'https://via.placeholder.com/1519x1077.png?text=Angular+Elastic+Builder',
+    website: false,
+    source: 'https://github.com/tienvx/angular-elastic-builder',
+    fbOpenSource: false,
+    pinned: false,
+  },
 ];
 
 const ITEMS_PER_ROW = 3; // Sync up the item col width if this is changed.
 const TITLE = 'Projects';
 const DESCRIPTION =
-  'See my awesome projects';
+  "See awesome projects that I'm contributor or author";
 
 function chunkArray(array, size) {
   const chunks = [];

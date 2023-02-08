@@ -1,5 +1,6 @@
 ---
 title: "Hello world!"
+authors: tienvx
 date: "2012-06-09"
 ---
 

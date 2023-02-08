@@ -1,5 +1,6 @@
 ---
 title: "Tham số trong hook_field_update"
+authors: tienvx
 date: "2013-04-14"
 ---
 

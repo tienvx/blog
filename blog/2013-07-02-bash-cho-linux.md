@@ -1,5 +1,6 @@
 ---
 title: "Bash for linux"
+authors: tienvx
 date: "2013-07-02"
 ---
 
