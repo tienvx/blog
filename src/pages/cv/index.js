@@ -8,12 +8,13 @@
 import React, { Component } from 'react';
 import CV from 'react-cv';
 import styles from './styles.module.css';
+import { faStamp } from '@fortawesome/free-solid-svg-icons'
 
 const CVData = {
   personalData: {
     name: 'Tien Xuan Vo',
     title: 'Senior PHP Developer',
-    image: 'cv/img/cv/profile.jpg',
+    image: '/img/cv/profile.jpg',
     contacts: [
       { type: 'email', value: 'tien [dot] xuan [dot] vo [at] gmail.com' },
       { type: 'phone', value: '+84 (xxx) xxx xx xx' },
@@ -39,7 +40,7 @@ const CVData = {
           title: 'Information Technology (Bachelor of Science)',
           authority: 'Ho Chi Minh City University of Science',
           authorityWebSite: 'https://www.hcmus.edu.vn/',
-          rightSide: 'Sep 2008 - Dec 2012'
+          rightSide: 'Sep. 2008 - Dec. 2012'
         }
       ]
     },
@@ -47,12 +48,13 @@ const CVData = {
       type: 'common-list',
       title: 'Certificates',
       description: '',
-      icon: 'fa-file-certificate',
+      icon: faStamp,
       items: [
         {
           title: 'Symfony 5 Certification',
-          authority: 'Symfony',
-          authorityWebSite: 'https://connect.symfony.com/profile/tienvx'
+          authority: 'Fabien Potencier, Symfony CEO',
+          authorityWebSite: 'https://connect.symfony.com/profile/tienvx',
+          rightSide: 'Dec. 2021'
         }
       ]
     },
@@ -68,7 +70,7 @@ const CVData = {
           description: 'We worked with micro-services using API Platform (an API-first framework based on Symfony)',
           companyWebSite: 'https://sunbytes.io/',
           companyMeta: 'Software outsourcing company',
-          datesBetween: '2020.01 - 2023.01',
+          datesBetween: 'Jan. 2020 - Jan. 2023',
           descriptionTags: ['Symfony', 'API Platform', 'Kafka', 'PHPUnit', 'Codeception']
         },
         {
@@ -77,7 +79,7 @@ const CVData = {
           description: 'At first we worked on Drupal projects, but then we updated them to micro-services using Silex',
           companyWebSite: 'https://www.go1.com/',
           companyMeta: 'E-learning platform',
-          datesBetween: '2013.04 - 2019.07',
+          datesBetween: 'Apr. 2013 - July 2019',
           descriptionTags: ['Drupal', 'Silex', 'Symfony Components', 'AngularJS', 'RabbitMQ', 'ReactJS', 'ElasticSearch', 'PHPUnit', 'Protractor', 'Testcafe', 'Codeception']
         },
         {
@@ -86,7 +88,7 @@ const CVData = {
           description: 'I was introduced to basic concepts of software testing.',
           companyWebSite: 'http://www.globalcybersoft.com/en/',
           companyMeta: 'Search IT Software Solution & Consulting Company',
-          datesBetween: '2012.07 - 2012.08'
+          datesBetween: 'July 2012 - Aug. 2012'
         },
         {
           title: 'Web Developer Intern',
@@ -94,7 +96,7 @@ const CVData = {
           description: 'I wrote PHP scripts to scrap online information.',
           companyWebSite: 'https://www.vietmaisolutions.com/',
           companyMeta: 'Software development and technology solutions consulting.',
-          datesBetween: '2011.09 - 2012.12',
+          datesBetween: 'Sept. 2011 - Dec. 2012',
           descriptionTags: ['PHP']
         }
       ]
@@ -106,22 +108,22 @@ const CVData = {
       groups: [
         {
           sectionHeader: 'Sunbytes',
-          description: 'Developer',
+          description: '',
           items: [
             { title: 'Kwadraad', projectUrl: 'https://www.kwadraad.nl/', description: 'A tool for social worker. We updated it from monolith to microservices using API Platform.' },
           ]
         },
         {
           sectionHeader: 'GO1',
-          description: 'Developer',
+          description: '',
           items: [
             { title: 'Report Builder', projectUrl: 'https://help.go1.com/en/articles/1691825-introduction-to-reporting', description: 'A reporting system that present information to users in different ways. It was buit using PHP, Elasticsearch, AngularJS.' },
-            { title: 'Monolith', projectUrl: '', description: 'A tool to help developer debug and test frontend and backend code in one place.' },
+            { title: 'Monolith', projectUrl: 'https://github.com/tony-th/go1-monolith', description: 'A tool to help developer debug and test frontend and backend code in one place.' },
           ]
         },
         {
           sectionHeader: 'Personal',
-          description: 'Developer',
+          description: '',
           items: [
             { title: 'Pact PHP (Contributor)', projectUrl: 'https://github.com/pact-foundation/pact-php', description: 'PHP version of Pact (A consumer driven contract testing tool).' },
             { title: 'SICOPE Model (Author)', projectUrl: 'https://sicope-model.github.io', description: 'An open-source software testing tool for web application.' },
