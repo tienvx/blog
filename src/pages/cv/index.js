@@ -13,9 +13,9 @@ const CVData = {
   personalData: {
     name: 'Tien Xuan Vo',
     title: 'Senior PHP Developer',
-    image: 'img/cv/profile.jpg',
+    image: 'cv/img/cv/profile.jpg',
     contacts: [
-      { type: 'email', value: 'tien . xuan . vo at gmail.com' },
+      { type: 'email', value: 'tien [dot] xuan [dot] vo [at] gmail.com' },
       { type: 'phone', value: '+84 (xxx) xxx xx xx' },
       { type: 'website', value: 'tienvx.github.io' },
       { type: 'linkedin', value: 'linkedin.com/in/tienxuanvo' },
@@ -27,7 +27,7 @@ const CVData = {
     {
       type: 'text',
       title: 'Career Profile',
-      content: "I'm Symfony 5 certified developer with 3 years experience. I has been working with PHP language for over 10 years. I love learning new things by working on open-source projects.",
+      content: "I'm Symfony 5 certified developer with 3 years experience. I has been working with PHP language for 10 years. I love learning new things by working on open-source projects.",
       icon: 'usertie'
     },
     {
@@ -44,6 +44,19 @@ const CVData = {
       ]
     },
     {
+      type: 'common-list',
+      title: 'Certificates',
+      description: '',
+      icon: 'fa-file-certificate',
+      items: [
+        {
+          title: 'Symfony 5 Certification',
+          authority: 'Symfony',
+          authorityWebSite: 'https://connect.symfony.com/profile/tienvx'
+        }
+      ]
+    },
+    {
       type: 'experiences-list',
       title: 'Experiences',
       //description: 'Optional',
@@ -52,18 +65,18 @@ const CVData = {
         {
           title: 'Senior PHP Developer',
           company: 'Sunbytes',
-          description: 'I worked with micro-services using API Platform (an API-first framework based on Symfony)',
+          description: 'We worked with micro-services using API Platform (an API-first framework based on Symfony)',
           companyWebSite: 'https://sunbytes.io/',
-          companyMeta: 'Software outsource company',
+          companyMeta: 'Software outsourcing company',
           datesBetween: '2020.01 - 2023.01',
           descriptionTags: ['Symfony', 'API Platform', 'Kafka', 'PHPUnit', 'Codeception']
         },
         {
           title: 'Senior PHP Developer',
           company: 'GO1',
-          description: 'I was a Drupal developer. Then I worked with Silex based micro-services, and AngularJS',
+          description: 'At first we worked on Drupal projects, but then we updated them to micro-services using Silex',
           companyWebSite: 'https://www.go1.com/',
-          companyMeta: 'E-learning portal',
+          companyMeta: 'E-learning platform',
           datesBetween: '2013.04 - 2019.07',
           descriptionTags: ['Drupal', 'Silex', 'Symfony Components', 'AngularJS', 'RabbitMQ', 'ReactJS', 'ElasticSearch', 'PHPUnit', 'Protractor', 'Testcafe', 'Codeception']
         },
@@ -72,12 +85,12 @@ const CVData = {
           company: 'Global Cybersoft',
           description: 'I was introduced to basic concepts of software testing.',
           companyWebSite: 'http://www.globalcybersoft.com/en/',
-          companyMeta: 'Search IT Software Solution & Consulting Company | Global CyberSoft',
+          companyMeta: 'Search IT Software Solution & Consulting Company',
           datesBetween: '2012.07 - 2012.08'
         },
         {
           title: 'Web Developer Intern',
-          company: 'VietMaiSolutions',
+          company: 'VIETMAI Solutions',
           description: 'I wrote PHP scripts to scrap online information.',
           companyWebSite: 'https://www.vietmaisolutions.com/',
           companyMeta: 'Software development and technology solutions consulting.',
@@ -93,36 +106,41 @@ const CVData = {
       groups: [
         {
           sectionHeader: 'Sunbytes',
+          description: 'Developer',
           items: [
-            { title: 'Kwadraad', projectUrl: '', description: 'A tool for social worker. We update it to version 4 using API Platform.' },
+            { title: 'Kwadraad', projectUrl: 'https://www.kwadraad.nl/', description: 'A tool for social worker. We updated it from monolith to microservices using API Platform.' },
           ]
         },
         {
           sectionHeader: 'GO1',
+          description: 'Developer',
           items: [
-            { title: 'Report Builder', projectUrl: '', description: 'A reporting system. GO1 use it to present data to clients. I\'m the maintainer of the project. I work on backend and frontend sides.' },
-            { title: 'Monolith', projectUrl: '', description: 'A tool to help developer grab all micro-services and frontend to help debug and test our code.' },
+            { title: 'Report Builder', projectUrl: 'https://help.go1.com/en/articles/1691825-introduction-to-reporting', description: 'A reporting system that present information to users in different ways. It was buit using PHP, Elasticsearch, AngularJS.' },
+            { title: 'Monolith', projectUrl: '', description: 'A tool to help developer debug and test frontend and backend code in one place.' },
           ]
         },
         {
           sectionHeader: 'Personal',
+          description: 'Developer',
           items: [
-            { title: 'Pact PHP', projectUrl: 'https://github.com/pact-foundation/pact-php', description: 'PHP version of Pact (A consumer driven contract testing tool).' },
-            { title: 'SICOPE Model', projectUrl: 'https://sicope-model.github.io', description: 'An open-source software testing tool for web application. It help tester testing web application by automatically generating test cases.' },
+            { title: 'Pact PHP (Contributor)', projectUrl: 'https://github.com/pact-foundation/pact-php', description: 'PHP version of Pact (A consumer driven contract testing tool).' },
+            { title: 'SICOPE Model (Author)', projectUrl: 'https://sicope-model.github.io', description: 'An open-source software testing tool for web application.' },
           ]
         }
       ]
     },
     {
       type: 'common-list',
-      title: 'Certificates',
-      description: '',
-      icon: 'file-certificate',
+      title: 'Languages',
+      icon: 'language',
       items: [
         {
-          title: 'Symfony 5 Certification',
-          authority: 'Symfony',
-          authorityWebSite: 'https://connect.symfony.com/profile/tienvx'
+          authority: 'Vietnamese',
+          authorityMeta: 'Native'
+        },
+        {
+          authority: 'English',
+          authorityMeta: 'Intermediate'
         }
       ]
     },
