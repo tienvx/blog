@@ -110,15 +110,15 @@ const CVData = {
           sectionHeader: 'Sunbytes',
           description: '',
           items: [
-            { title: 'Kwadraad', projectUrl: 'https://www.kwadraad.nl/', description: 'A tool for social worker. We updated it from monolith to microservices using API Platform.' },
+            { title: 'Kwadraad (Backend Developer)', projectUrl: 'https://www.kwadraad.nl/', description: 'A tool for social worker. We updated it from monolith to microservices using API Platform.' },
           ]
         },
         {
           sectionHeader: 'GO1',
           description: '',
           items: [
-            { title: 'Report Builder', projectUrl: 'https://help.go1.com/en/articles/1691825-introduction-to-reporting', description: 'A reporting system that present information to users in different ways. It was buit using PHP, Elasticsearch, AngularJS.' },
-            { title: 'Monolith', projectUrl: 'https://github.com/tony-th/go1-monolith', description: 'A tool to help developer debug and test frontend and backend code in one place.' },
+            { title: 'Report Builder (Full Stack Developer, Maintainer)', projectUrl: 'https://help.go1.com/en/articles/1691825-introduction-to-reporting', description: 'A reporting system that present information to users in different ways. It was buit using PHP, Elasticsearch, AngularJS.' },
+            { title: 'Monolith (Contributor)', projectUrl: 'https://github.com/tony-th/go1-monolith', description: 'A tool to help developer debug and test frontend and backend code in one place.' },
           ]
         },
         {
