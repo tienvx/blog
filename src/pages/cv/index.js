@@ -28,7 +28,7 @@ const CVData = {
     {
       type: 'text',
       title: 'Career Profile',
-      content: "I'm Symfony 5 certified developer with 3 years experience. I has been working with PHP language for 10 years. I love learning new things by working on open-source projects.",
+      content: "I'm Symfony 5 certified developer with 3 years’ experience. I have been working with PHP language for 10 years. I love learning new things by working on open-source projects.",
       icon: 'usertie'
     },
     {
